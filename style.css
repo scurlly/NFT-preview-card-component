@@ -1,0 +1,113 @@
+:root {
+  --verydarkblueBG: hsl(217, 54%, 11%);
+  --verydakblue: hsl(216, 50%, 16%);
+  --verydarkblueline: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+  --softblue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: var(--verydarkblueBG);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  color: var(--softblue);
+  text-align: left;
+}
+
+.card {
+  width: 20rem;
+  border-radius: 12px;
+  background-color: var(--verydakblue);
+  color: var(--softblue);
+}
+
+.card-img-top {
+  border-radius: 5px;
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.wrapper {
+  position: relative;
+  background-color: var(--cyan);
+  border-radius: 5px;
+}
+
+.middle {
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.wrapper:hover .card-img-top {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.wrapper:hover .middle {
+  opacity: 1;
+}
+
+.view-img:hover {
+  cursor: pointer;
+}
+
+.card-body {
+  padding-inline: 0;
+}
+
+.card-title {
+  color: var(--white);
+  font-weight: 600;
+}
+
+.card-title:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+
+.card-text {
+  color: var(--softblue);
+  font-weight: 300;
+}
+
+span {
+  color: var(--cyan);
+}
+
+.days {
+  float: right;
+}
+
+.svg {
+  margin-right: 5px;
+}
+
+.avatar {
+  width: 2rem;
+  border: solid 2px var(--white);
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+b {
+  color: var(--white);
+  font-weight: 400;
+}
+
+b:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
