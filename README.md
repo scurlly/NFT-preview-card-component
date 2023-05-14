@@ -32,8 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:https://scurlly.github.io/NFT-preview-card-component/
 
 ### Built with
 
@@ -54,7 +53,7 @@ One major learning from this project was the importance of using semantic HTML a
 
 ### Useful resources
 
-- [Example resource 1](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me to get the hover effect on the image. 
+- [Hover on Image](https://www.w3schools.com/howto/howto_css_image_overlay.asp) - This helped me to get the hover effect on the image. 
 
 ## Author
 
